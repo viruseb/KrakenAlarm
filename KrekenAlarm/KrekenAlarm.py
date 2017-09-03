@@ -3,4 +3,7 @@
 
 import Hoover
 
-hoover = Hoover("",{"XXBTZEUR","XETHZEUR"})
+hoover = Hoover("",{"XXBTZEUR","XETHZEUR"},60*30)
+hoover.start()
+
+
